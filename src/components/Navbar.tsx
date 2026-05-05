@@ -101,10 +101,10 @@ export default function Navbar() {
         href="https://www.instagram.com/gtb__group?igsh=Y3dkYXE5dTc3czhy"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center w-5 h-5 lg:w-6 lg:h-6 hover:text-gold hover:scale-110 transition" >
+        className="flex items-center justify-center w-7 h-7 lg:w-7 lg:h-7 hover:text-gold hover:scale-110 transition" >
         <img
           src="/social-media/instagram_no_bg.png"
-          className="w-4 lg:w-5 h-4 lg:h-5 brightness-0 invert"
+          className="w-6 lg:w-6 h-6 lg:h-6 brightness-0 invert"
         />
       </a>
 

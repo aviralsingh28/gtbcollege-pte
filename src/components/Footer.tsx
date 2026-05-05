@@ -160,7 +160,7 @@ export default function Footer() {
             <img
               src="/social-media/instagram_no_bg.png"
               alt="Instagram"
-              className="w-5 h-5 object-contain brightness-0 invert"
+              className="w-6 lg:w-6 h-6 lg:h-6 brightness-0 invert"
             />
           </a>
 
