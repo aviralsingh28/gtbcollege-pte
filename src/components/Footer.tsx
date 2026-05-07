@@ -13,6 +13,11 @@ const footerLinks = {
     { label: "GTB College", href: "https://www.gtbcollege.in/", external: true },
     { label: "GTB College of Education", href: "http://gtbcollegeofeducation.com/", external: true },
   ],
+   "Legal": [
+    { label: "Terms & Conditions", href: "/terms&condition" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Sitemap", href: "/sitemap" },
+  ],
 };
 
 export default function Footer() {
