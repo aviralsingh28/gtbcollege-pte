@@ -90,6 +90,117 @@ export default function IntroductionPage() {
           </div>
         </div>
       </section>
+
+      {/* ── Courses & Fees FAQ Section ─────────────────────────────────── */}
+<section className="py-20 px-4 md:px-8 bg-cream">
+  <div className="max-w-6xl mx-auto">
+
+    {/* Heading */}
+    <div className="text-center mb-14">
+      <h2 className="text-4xl md:text-5xl font-serif text-navy mb-4">
+        FAQs
+      </h2>
+      <p className="text-gray-600 text-lg">
+        Everything you need to know about our regular and private courses.
+      </p>
+    </div>
+
+    {/* Regular Courses */}
+    <div className="mb-16">
+      <h3 className="text-2xl font-bold text-navy mb-6 border-l-4 border-gold pl-4">
+        Regular Courses
+      </h3>
+
+      <div className="grid md:grid-cols-2 gap-6">
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <h4 className="text-lg font-semibold text-navy mb-2">
+            What courses are available under regular programs?
+          </h4>
+          <p className="text-gray-600">
+            We offer B.A., B.Com, B.Sc (Maths), BCA, PGDCA, DCA, and PGDBM under regular mode.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <h4 className="text-lg font-semibold text-navy mb-2">
+            What is the fee structure for regular courses?
+          </h4>
+          <p className="text-gray-600">
+            Fees range from ₹12,000 to ₹18,500 depending on the course. BCA and PGDCA have higher fees due to technical curriculum.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <h4 className="text-lg font-semibold text-navy mb-2">
+            How many seats are available?
+          </h4>
+          <p className="text-gray-600">
+            Seat availability varies by course, ranging from 30 to 120 seats.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <h4 className="text-lg font-semibold text-navy mb-2">
+            Which course is best for IT careers?
+          </h4>
+          <p className="text-gray-600">
+            BCA and PGDCA are the best options for students interested in IT, software development, and computer applications.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    {/* Private Courses */}
+    <div>
+      <h3 className="text-2xl font-bold text-navy mb-6 border-l-4 border-gold pl-4">
+        Private Courses
+      </h3>
+
+      <div className="grid md:grid-cols-2 gap-6">
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <h4 className="text-lg font-semibold text-navy mb-2">
+            What are private courses?
+          </h4>
+          <p className="text-gray-600">
+            Private courses allow students to complete their degrees without attending regular classes.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <h4 className="text-lg font-semibold text-navy mb-2">
+            Which private courses are available?
+          </h4>
+          <p className="text-gray-600">
+            Available courses include B.A., B.Com, B.Sc (Bio/Maths), M.A. (various subjects), and M.Sc (Maths).
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <h4 className="text-lg font-semibold text-navy mb-2">
+            Who should choose private courses?
+          </h4>
+          <p className="text-gray-600">
+            Students who are working, preparing for exams, or unable to attend regular classes can opt for private courses.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+          <h4 className="text-lg font-semibold text-navy mb-2">
+            Is the degree valid for jobs?
+          </h4>
+          <p className="text-gray-600">
+            Yes, degrees obtained through private mode are valid and recognized as per university norms.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
     </>
   );
 }
