@@ -61,7 +61,7 @@ export default function AcademicsPage() {
             <Award size={14} /> Affiliated: ABVV
           </div>
           <div className="flex items-center gap-2">
-            <FileText size={14} /> College Code: 208
+            <FileText size={14} /> College Code: 233
           </div>
           <div className="flex items-center gap-2">
             <Award size={14} /> Recognised by Govt. of Chhattisgarh
