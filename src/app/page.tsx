@@ -272,27 +272,6 @@ gsap.fromTo(
   <div className="relative z-10 max-w-5xl mx-auto px-4 w-full text-center mt-[-8vh] hidden md:block">
     <div className="hero-buttons flex justify-center opacity-0"></div>
   </div>
-
-  {/* NEWS BAR (DESKTOP ONLY) */}
-  <div className="absolute bottom-0 left-0 right-0 bg-navy/95 backdrop-blur-xl border-t border-white/10 hidden md:block z-20">
-    <div className="max-w-7xl mx-auto px-4 md:px-8 flex">
-      <div className="bg-gold text-navy font-bold text-xs px-6 py-4">
-        Latest News
-      </div>
-       <div className="flex-1 flex items-center overflow-hidden px-6 relative">
-              <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-navy to-transparent z-10"></div>
-              <div className="animate-marquee gap-12 text-sm text-cream font-sans">
-                {[...news, ...news, ...news].map((item, i) => (
-                  <span key={i} className="flex items-center gap-3 hover:text-gold transition-colors cursor-pointer shrink-0">
-                    <span className="w-1.5 h-1.5 bg-gold rounded-full inline-block shrink-0"></span>
-                    <span className="font-semibold text-white shrink-0">{item.date}:</span>
-                    <span className="shrink-0">{item.title}</span>
-                  </span>
-          ))}
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
       {/* ── Welcome / About ──────────────────────────────── */}
